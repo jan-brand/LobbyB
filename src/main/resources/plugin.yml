@@ -1,0 +1,20 @@
+name: LobbyB
+version: '1.0.0'
+main: de.janbrand.lobbyB.LobbyB
+api-version: '1.21'
+commands:
+  setlobby:
+    description: Setzt die Lobby-Position.
+    usage: /setlobby
+    permission: lobbyb.setlobby
+    permission-message: Du hast keine Berechtigung, die Lobby zu setzen.
+  lobby:
+    description: Teleportiert dich zur Lobby.
+    usage: /lobby
+    permission: lobbyb.use
+    permission-message: Du hast keine Berechtigung, dich zur Lobby zu teleportieren.
+  lobbybreload:
+    description: Lädt das LobbyB-Plugin neu.
+    usage: /lobbybreload
+    permission: lobbyb.reload
+    permission-message: Du hast keine Berechtigung, das Plugin neu zu laden.
